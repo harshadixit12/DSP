@@ -19,11 +19,10 @@ Digits and corresponding frequency pairs:
 METHODOLOGY: Design was done using Kaiser window method, as minimum order was obtained through this
 method.
 
-MATLAB IMPLEMENTATION
-Four bandpass filters were designed, with the following specifications:
-Sampling frequency = 8000 Hz
-Maximum passband ripple = 0.01
-Minimum stopband attenuation = 0.03 (30 dB)
+MATLAB IMPLEMENTATION: Four bandpass filters were designed, with the following specification.
+Sampling frequency = 8000 Hz.
+Maximum passband ripple = 0.01.
+Minimum stopband attenuation = 0.03 (30 dB).
 
 Filter 1:
 Passband: 995 Hz to 1005 Hz
