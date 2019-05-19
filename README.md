@@ -7,23 +7,16 @@ When telephone was invented, signalling was done through rotary dials. The first
 pulses were sent as the user rotated the dial to the finger stop starting at a different position for each digit transmitted. It was recognized as early as the 1940s that faster, more accurate dialing could be done with push buttons. In 1963, the Bell System introduced to the public its dual-tone multi-frequency (DTMF) technology under the name Touch-Tone, which was
 a trademark in the U.S. until 1984. The Touch-Tone system used push-button telephones. In the decades after 1963, pulse dialing was gradually phased out as the primary dialing method to the central office, but many systems still support rotary telephones today.
 
-When you press the buttons on the keypad, a connection is made that generates two tones
-at the same time. A “Row” tone and a “Column” tone. These two tones identify the key you
-pressed to any equipment you are controlling.
-For instance, if you dial "5" on your keypad, the signal sent to the telephone office will
-have frequencies 770 Hz and 1336 Hz.
-1.2 ASSUMPTIONS
-To simplify the task of generation and decoding of DTMF signals, the following assumptions
-have been made.
-• DTMF signals for four digits are being generated and decoded.
+When you press the buttons on the keypad, a connection is made that generates two tones at the same time. A “Row” tone and a “Column” tone. These two tones identify the key you pressed to any equipment you are controlling.For instance, if you dial "5" on your keypad, the signal sent to the telephone office will have frequencies 770 Hz and 1336 Hz.
+
+ASSUMPTIONS: DTMF signals for four digits are being generated and decoded.
 
 Digits and corresponding frequency pairs:
 
      1  1000.00     2  1000.00    3   1700.00     4    1700.00
         2800.00        3500.00        2800.00          3500.00
 
-METHODOLOGY
-Design was done using Kaiser window method, as minimum order was obtained through this
+METHODOLOGY: Design was done using Kaiser window method, as minimum order was obtained through this
 method.
 
 MATLAB IMPLEMENTATION
