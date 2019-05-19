@@ -1,5 +1,6 @@
 # DSP - DTMF
-This project was done in partial fulfilment of course Digital Signal Processing
+This project was done in partial fulfilment of course Digital Signal Processing.
+
 DTMF stands for Dual Tone Multi Frequency. 
 
 When telephone was invented, signalling was done through rotary dials. The first dials worked by direct, forward action. The
